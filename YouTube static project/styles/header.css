@@ -1,0 +1,263 @@
+body {
+  margin: 0;
+  height: 3000px;
+  padding-top: 80px;
+  padding-left: 119px;
+  padding-right: 24px;
+  background-color: rgb(250, 246, 246);
+  
+}
+
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom: 1px solid rgb(207, 207, 207);
+z-index: 2;
+
+}
+
+.left-section {
+  display: flex;
+  align-items: center;
+}
+
+.middle-section {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  
+
+}
+
+.right-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 230px;
+  margin-right: 20px;
+  flex-shrink: 0;
+  
+}
+
+.hamburger-menu {
+ height: 24px;
+ margin-left: 24px;
+ margin-right: 24px;
+ 
+
+}
+
+.youtube-logo {
+height: 20px;
+
+}
+
+.notifications,
+.youtube-apps,
+.upload {
+  width: 30px;
+}
+
+.my-channel {
+  width: 38px;
+  
+  align-self: center;
+}
+
+.search-button {
+  height: 44px;
+  width: 60px;
+  background-color: rgb(240, 237, 237);
+  border: 1px solid  rgb(207, 207, 207);
+  margin-left: -1px;
+  position: relative;
+}
+
+.search-button .tooltip {
+position: absolute;
+background-color: grey;
+color: white;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 8px;
+padding-right: 8px;
+border-radius: 2px;
+font-size: 16px;
+bottom: -59px;
+left: -4.5px;
+opacity: 0;
+transition: opacity 0.15s;
+pointer-events: none;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+.search-button:hover .tooltip {
+opacity: 0.9;
+}
+
+.voice-search-button {
+  height: 48px;
+  width: 48px;
+  margin-left: 10px;
+  border-radius: 24px;
+  border: none;
+  background-color: rgb(245, 244, 244);
+  position: relative;
+}
+
+.upload-div{
+  position: relative;
+}
+
+.upload {
+  margin-top: 11.5px;
+}
+
+.upload-div .tooltip,
+.youtube-apps-div .tooltip,
+.notification-div .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  bottom: -37px;
+  left: -10px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  border-radius: 2px;
+  transition: opacity 0.15s;
+}
+
+.youtube-apps-div .tooltip {
+  width: 86px;
+  left: -27px;
+}
+
+.notification-div .tooltip {
+  left: -23px;
+}
+
+.upload-div:hover .tooltip,
+.youtube-apps-div:hover .tooltip,
+.notification-div:hover .tooltip {
+  opacity: 0.9;
+}
+
+.youtube-apps-div {
+  position: relative;
+}
+
+.youtube-apps {
+  margin-top: 11.5px;
+}
+
+.voice-search-button .tooltip{
+  position: absolute;
+  background-color: gray;
+  color: white;
+  width: 150px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  bottom: -42px;
+  left: -49px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  border-radius: 2px;
+}
+
+
+
+.voice-search-button:hover .tooltip {
+  opacity: 0.9;
+}
+
+
+.Search {
+  flex: 1;
+  height: 40px;
+  padding-left: 10px;
+  font-size: 16px;
+  border:  1px solid rgb(207, 207, 207);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+  width: 0;
+
+}
+
+.search::placeholder {
+  font-family: Arial;
+  font-size: 16px;
+
+}
+
+.Search-icon {
+  height: 20px;
+  width: 25px;
+}
+
+.voice-search-icon {
+ height: 28px;
+ margin-top: 4px;
+
+
+}
+
+.side-bar {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 90px;
+  top: 50px;
+  z-index: 101;
+  padding-top: 5px;
+  background-color: white;
+
+}
+
+.notification-div {
+position: relative;
+margin-top: 13px;
+}
+
+.notification-div-3 {
+position: absolute;
+top: 0;
+right: 0;
+color: white;
+background-color: rgb(211, 9, 9);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 11px;
+padding-left: 5px;
+padding-right: 6px;
+padding-top: 2px;
+padding-bottom: 2px;
+border-radius: 10px;
+}
+
+.sidebar-link {
+background-color: white;
+height: 76px;
+
+}
+
+.sidebar-link:hover {
+  background-color: rgb(241, 241, 241);
+}
+
